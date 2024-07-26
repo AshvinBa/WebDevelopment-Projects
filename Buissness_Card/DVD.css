@@ -12,19 +12,19 @@ body{
 #Intro
 {
     height: 350px;
-    background: url("./images/pexels-sam-nam-491996-1204148.jpg") no-repeat center center/cover;
+    background: url("./images/background-poster.png") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     /* border:1px solid black; */
 }
-#Intro #logo
+#Intro #logo #logo-img
 {
     background-color: white;
     border: 2px solid black;
     position: relative;
     top:75px;
-    border-radius:100px;
+    border-radius:200px;
 }
 
 #Intro #logo img

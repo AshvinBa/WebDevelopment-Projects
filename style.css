@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    
 }
 
 /* Styling for the logo within the introductory section */
@@ -25,6 +26,7 @@
     box-shadow: 2px 10px 10px 1px gray;
     height: 180px;
     width: 180px;
+    
 }
 
 /* Styling for the second section containing the introduction */
@@ -76,10 +78,11 @@
 {
     padding: 10px;
     height: auto;
-    width: 40%;
+    width: 70%;
     background-color: rgb(214, 235, 244);
     color: gray;
     border-radius: 5px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -94,26 +97,28 @@
 
 .contact-block
 {
+    height: auto;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
-    padding: 30px;
-    width: 95%;
-    /* flex-direction: column; */
-    /* border: 0.2px solid black; */
+    display: wrap;
 }
 
 .contact-us
 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     /* float: left;  */
     display: wrap;
-    padding: 20px;
+    /* margin: 25px 5px; */
+    padding: 10px;
     height: auto;
-    width: 41%;
+    width: 70%;
     background-color: rgb(214, 235, 244);
     border-radius: 5px;
     color: gray;
+    margin: 20px;
 }
 
 .contact-us h4
@@ -162,28 +167,31 @@
 
 .other-services
 {
-    width: 96%;
-    padding: 20px;
+    /* width: 100%; */
+    padding: 0px;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .services
 {
-    width: 40%;
-    display: wrap;
-    padding: 20px;
+    /* padding: 25px; */
     /* border: 0.2px solid black; */
+    width: 70%;
+    display: wrap;
+    padding: 20px 10px;
     background-color: rgb(214, 235, 244);
     color: gray;
     border-radius: 10px;
+    /* margin: 10px; */
+    margin: 20px;
 }
 
 #ser
 {
     margin: 10px;
-    /* margin-top: 10px; */
     font-size: 25px;
     font-weight: 600;
     
@@ -191,7 +199,7 @@
 
 #s1
 {
-    width: 50%;
+    width: 400px;
     height: 200px;
     margin: 10px;
     border-radius: 10px;
@@ -274,6 +282,11 @@
     .box{
         padding: 5px;
     }
+    .about-section
+    {
+        /* padding: 20px 0px;
+        width: 100%; */
+    }
     .about-me
     {
         width: auto;
@@ -286,7 +299,8 @@
     }
     .contact-us
     {
-        width: 100%;
+        margin: 25px 0px;
+        width: 85%;
     }
     .other-services
     {
@@ -294,8 +308,9 @@
         padding: 0px;
     }
     .services
-    {
-        width: 100%;
+    {    
+        width: 80%;
+        padding: 20px;
     }
     #toggleDarkMode
     {
@@ -307,6 +322,24 @@
     margin: 5px;
     border: 0.2px solid gray;
     /* box-shadow: 1px 1px 1px 1px gray; */
+    }
+    #s1
+    {
+        width: 70%;
+        height: 200px;
+    }
+
+}
+
+
+@media all and (max-width: 200px) {
+
+    .intro{
+        overflow: hidden;
+    }
+    .about-me
+    {
+        overflow: hidden;
     }
 
 }
